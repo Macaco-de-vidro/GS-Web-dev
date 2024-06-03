@@ -19,8 +19,7 @@ h1{
 }
 
 form {
-    margin-left: 800px;
-    margin-top: 340px;
+    text-align: center;
 }
 
 input {
@@ -45,7 +44,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 339px;
+    margin-top: 664px;
 }
 
 .btn {
