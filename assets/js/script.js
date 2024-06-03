@@ -14,4 +14,17 @@ index++;
 }
 slideShow();
 
-    
+
+function validarFormulario() {
+    var nome = document.getElementById("nome").value;
+    var senha = document.getElementById("senha").value;
+
+    if (nome === "gojo" && senha === "omaisforte") {
+        alert("Redirecionando")
+        window.location.href = "quiz.html";
+        return false; 
+    } else {
+        alert("Nome de usuário ou senha incorretos!");
+        return true;
+    }
+}
