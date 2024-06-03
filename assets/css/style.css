@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --preto-principal: #000000;
+    --branco-secundario: #ffffff;
+    --botao-verde: rgba(0, 255, 34, 0.432);
+    --botao-verde-efeito: rgba(43, 255, 0, 0.63);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,31 +15,30 @@
 }
 
 h1 {
-    margin: 10px;
-    color: black;
-    font-family: var(--fonte-principal);
+    margin: 15px;
+    color: var(--preto-principal);
+    font-family: "Noto Sans", sans-serif;
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: var(--preto-principal);
     text-decoration: none;
 }
 
 p {
     border-radius: 7px;
     padding: 10px 15px;
-    color: black;
+    color: var(--preto-principal);
     font-size: 18px;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
 }
 
 .header {
-    background-color: black;
+    background-color: var(--preto-principal);
     box-shadow: 1px 1px 4px color(gray);
     height: 3.5em;
     justify-content: space-between;
-    border-color: purple;
     border-width: 50px;
 }
 
@@ -52,7 +58,6 @@ p {
 
 .navigation_header a {
     text-decoration: none;
-    color: purple;
     transition: 1s;
     font-weight: bold;
 }
@@ -63,7 +68,7 @@ p {
     border: none;
     border-radius: 7px;
     background-color: rgba(0, 255, 34, 0.432);
-    color: white;
+    color: var(--branco-secundario);
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -81,13 +86,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--branco-secundario);
 }
 
 footer {
-    background-color: #000000;
+    background-color: var(--preto-principal);
     min-height: 40px;
-    color: white;
+    color: var(--branco-secundario);
     display: flex;
     justify-content: center;
     align-items: center;
