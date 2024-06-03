@@ -51,11 +51,11 @@ p {
     align-items: center;
 }
 
-.navigation_header {
+.absolutecinema {
     gap: 3em;
 }
 
-.navigation_header a {
+.absolutecinema a {
     text-decoration: none;
     transition: 1s;
     font-weight: bold;
