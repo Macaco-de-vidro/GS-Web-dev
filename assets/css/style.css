@@ -136,3 +136,9 @@ input {
     background-color: rgba(43, 255, 0, 0.63);
 }
 
+@media screen and (max-width:1020px){
+    img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
