@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style-login.css">
 
-</head>  
+</head> 
+    <div class="header">
+        <button class="btn"><a href="/assets/index.html">Home</a></button>
+    </div>
 
 <body>
-    <div class="containerForm">
+    <h1>Login</h1>
+    <div>
         <form id="formulario" onsubmit="return validarFormulario()">
-            <input type="text" id="nome" name="nome" placeholder="Usuário"><br>
-            <input type="password" id="senha" name="senha" placeholder="Senha"><br><br>
-            <input type="submit" value="Enviar">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="senha">Senha:</label>
+            <br>
+            <input type="password" id="senha" name="senha">
+            <br>
+            <input type="submit" value="Enviar" class="btn-env">
         </form>
     </div>
-</body>
-<a href="/assets/index.html">Retornar</a>
 
-<script src="/assets/js/script.js"></script>
+</body>
+<footer>
+    <div>
+        <h5>Direitos reservados | Gabriel Lacerda Araujo | Gabriel Luni Nakashima</h5>
+    </div>
+</footer>
+
+<script src="./assets/js/script.js"></script>
 </html>
