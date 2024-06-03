@@ -110,6 +110,7 @@ footer {
 img {
     max-height: auto;
     max-width: 800px;
+    border-radius: 10px;
 }
 #n789{
     left: 0;
