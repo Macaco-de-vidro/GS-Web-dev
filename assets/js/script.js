@@ -1,4 +1,4 @@
-let imagens=["/assets/img/A1.png","/assets/img/A2.png","/assets/img/A3.jpg"];
+let imagens=["./assets/img/A1.png","./assets/img/A2.png","./assets/img/A3.jpg"];
 let index = 0;
 let time = 3000;
 
@@ -21,7 +21,7 @@ function validarFormulario() {
 
     if (nome === "gojo" && senha === "omaisforte") {
         alert("Redirecionando")
-        window.location.href = "quiz.html";
+        window.location.href = "./perfil.html";
         return false; 
     } else {
         alert("Nome de usuário ou senha incorretos!");
