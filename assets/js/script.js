@@ -21,7 +21,7 @@ function validarFormulario() {
 
     if (nome === "gojo" && senha === "omaisforte") {
         alert("Redirecionando")
-        window.location.href = "../../perfil.html";
+        window.location.href = "../perfil.html";
         return false; 
     } else {
         alert("Nome de usuário ou senha incorretos!");
