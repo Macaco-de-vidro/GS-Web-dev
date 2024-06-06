@@ -5,5 +5,7 @@ Eu (Gabriel Luni Nakashima RM558096) e Gabriel Lacerda Araujo RM558307 realizamo
 Os commits foram dados principalmente por uma branch e após isso, foi realizado o merge para que o main fosse atualizado
 
 Login: gojo 
+
 Senha: omaisforte
-https://macaco-de-vidro.github.io/GS-Web-dev/
+
+Site : https://macaco-de-vidro.github.io/GS-Web-dev/
